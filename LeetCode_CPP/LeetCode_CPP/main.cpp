@@ -7,15 +7,14 @@
 //
 
 #include <iostream>
-#include "TwoSum.hpp"
+#include "MaxmumSubArray.hpp"
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     Solution solution;
-    vector<int> list = {3, 2, 4};
-    for (int num : solution.twoSum(list, 6)) {
-        std::cout << num << " ";
-    }
+    vector<int> list = {-2,1,-3,4,-1,2,1,-5,4};
+    std::cout << solution.maxSubArray(list) << endl;
+    
     
     return 0;
 }
