@@ -7,14 +7,12 @@
 //
 
 #include <iostream>
-#include "MaxmumSubArray.hpp"
+#include "GCD.hpp"
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
     Solution solution;
-    vector<int> list = {-2,1,-3,4,-1,2,1,-5,4};
-    std::cout << solution.maxSubArray(list) << endl;
-    
-    
+    int gcd = solution.gcd(60, 24);
+    std::cout << gcd << std::endl;
     return 0;
 }

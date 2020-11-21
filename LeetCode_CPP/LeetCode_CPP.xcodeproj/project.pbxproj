@@ -10,6 +10,7 @@
 		D657BC96250C7A1E000481F9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D657BC95250C7A1E000481F9 /* main.cpp */; };
 		D657BC9F250C7A54000481F9 /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D657BC9D250C7A54000481F9 /* TwoSum.cpp */; };
 		D669E55A255F758000F390B5 /* MaxmumSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D669E558255F758000F390B5 /* MaxmumSubArray.cpp */; };
+		D6E7DEB52568B1B700F432D7 /* GCD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E7DEB32568B1B700F432D7 /* GCD.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		D657BC9E250C7A54000481F9 /* TwoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
 		D669E558255F758000F390B5 /* MaxmumSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxmumSubArray.cpp; sourceTree = "<group>"; };
 		D669E559255F758000F390B5 /* MaxmumSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxmumSubArray.hpp; sourceTree = "<group>"; };
+		D6E7DEB32568B1B700F432D7 /* GCD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GCD.cpp; sourceTree = "<group>"; };
+		D6E7DEB42568B1B700F432D7 /* GCD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GCD.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				D657BC95250C7A1E000481F9 /* main.cpp */,
+				D6E7DEB12568B17A00F432D7 /* 0 */,
 				D657BC9C250C7A32000481F9 /* 1.TwoSum */,
 				D669E557255F750F00F390B5 /* 53.MaxmumSubArray */,
 			);
@@ -86,6 +90,15 @@
 				D669E559255F758000F390B5 /* MaxmumSubArray.hpp */,
 			);
 			path = 53.MaxmumSubArray;
+			sourceTree = "<group>";
+		};
+		D6E7DEB12568B17A00F432D7 /* 0 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E7DEB32568B1B700F432D7 /* GCD.cpp */,
+				D6E7DEB42568B1B700F432D7 /* GCD.hpp */,
+			);
+			path = 0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			files = (
 				D657BC9F250C7A54000481F9 /* TwoSum.cpp in Sources */,
 				D669E55A255F758000F390B5 /* MaxmumSubArray.cpp in Sources */,
+				D6E7DEB52568B1B700F432D7 /* GCD.cpp in Sources */,
 				D657BC96250C7A1E000481F9 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
